@@ -34,7 +34,7 @@ export default function App() {
 
           <div className="mt-4 flex flex-col w-1/3 gap-2">
             <Button
-            className="bg-blue-800"
+            className="bg-blue-800 hover:bg-blue-700 cursor-pointer"
               type="button"
               onClick={() =>
                 append({
